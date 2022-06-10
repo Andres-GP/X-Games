@@ -19,6 +19,13 @@ import { HttpHeadersInterceptor } from './interceptors/http-headers.interceptor'
 import { HttpErrorsInterceptor } from './interceptors/http-errors.interceptor';
 import { DetailsComponent } from './components/details/details.component';
 import { GameTabsComponent } from './components/game-tabs/game-tabs.component';
+import { BannerComponent } from './components/banner/banner.component';
+import { FreeGamesComponent } from './components/free-games/free-games.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { BestRatedComponent } from './components/best-rated/best-rated.component';
+import { BestReviewedComponent } from './components/best-reviewed/best-reviewed.component';
+import { ExploreOurCatalogComponent } from './components/explore-our-catalog/explore-our-catalog.component';
+import { SearchComponent } from './components/search/search.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +33,14 @@ import { GameTabsComponent } from './components/game-tabs/game-tabs.component';
     SearchBarComponent,
     HomeComponent,
     DetailsComponent,
-    GameTabsComponent
+    GameTabsComponent,
+    BannerComponent,
+    FreeGamesComponent,
+    FooterComponent,
+    BestRatedComponent,
+    BestReviewedComponent,
+    ExploreOurCatalogComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
