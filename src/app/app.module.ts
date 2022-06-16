@@ -26,6 +26,7 @@ import { BestRatedComponent } from './components/best-rated/best-rated.component
 import { BestReviewedComponent } from './components/best-reviewed/best-reviewed.component';
 import { ExploreOurCatalogComponent } from './components/explore-our-catalog/explore-our-catalog.component';
 import { SearchComponent } from './components/search/search.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { SearchComponent } from './components/search/search.component';
     BestRatedComponent,
     BestReviewedComponent,
     ExploreOurCatalogComponent,
-    SearchComponent
+    SearchComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
