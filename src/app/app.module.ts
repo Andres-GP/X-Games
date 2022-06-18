@@ -27,6 +27,7 @@ import { BestReviewedComponent } from './components/best-reviewed/best-reviewed.
 import { ExploreOurCatalogComponent } from './components/explore-our-catalog/explore-our-catalog.component';
 import { SearchComponent } from './components/search/search.component';
 import { HeaderComponent } from './components/header/header.component';
+import { GameItemComponent } from './components/game-item/game-item.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { HeaderComponent } from './components/header/header.component';
     BestReviewedComponent,
     ExploreOurCatalogComponent,
     SearchComponent,
-    HeaderComponent
+    HeaderComponent,
+    GameItemComponent
   ],
   imports: [
     BrowserModule,
