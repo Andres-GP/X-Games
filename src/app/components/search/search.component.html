@@ -1,8 +1,4 @@
 <div class="search-container">
-
-
-
-  <!--TODO translate and delete-->
   <div class="filters">
     <mat-form-field>
       <mat-label>Sort</mat-label>
@@ -25,13 +21,17 @@
 
 
   <form class="form" #form="ngForm" (ngSubmit)="onSubmit(form)">
-    <button class="button">Search</button>
-    <input
-      class="input"
-      name="search"
-      ngModel
-      placeholder="Search 500,000+ games"
-    />
+    <div class="input-container">
+      <button class="button">
+        <img src='../../../assets/images/icons/search_icon.svg' alt="Search Icon"/>
+      </button>
+      <input
+        class="input"
+        name="search"
+        ngModel
+        placeholder="Search"
+      />
+    </div>
   </form>
   <div class="games">  
       <app-game-item [game]="game" *ngFor="let game of games">
